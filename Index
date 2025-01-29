@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sethu Drones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sethu Drones</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Innovative Drone Solutions</h2>
+        <p>Revolutionizing the future with cutting-edge drone technology.</p>
+        <a href="#services" class="cta">Explore Our Services</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Sethu Drones is a leading provider of drone technology solutions, specializing in aerial photography, surveying, and industrial inspections.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Aerial Photography</h3>
+                <p>High-quality aerial images and videos for real estate, events, and more.</p>
+            </div>
+            <div class="service-item">
+                <h3>Surveying & Mapping</h3>
+                <p>Precision surveying and mapping services for construction and land management.</p>
+            </div>
+            <div class="service-item">
+                <h3>Industrial Inspections</h3>
+                <p>Efficient and safe inspections for infrastructure, pipelines, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sethu Drones. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
